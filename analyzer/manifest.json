@@ -1,0 +1,23 @@
+{
+  "name": "NLP_Phishing_1_0",
+  "version": "1.0",
+  "author": "SAMEER",
+  "url": "https://github.com/YourName/NLP_Phishing_1_0",
+  "license": "MIT",
+  "description": "Detects phishing in .eml or mail content",
+  "dataTypeList": ["file", "mail", "text"],
+  "command": "python3 NLP_Phishing_1_0.py --data {input}",
+  "baseConfig": "DockerAnalyzer",
+  "docker": true,
+  "support": "docker",
+  "dockerImage": "cortex-analyzer-nlp_phishing_1_0:latest",
+  "className": "NLP_Phishing_1_0",
+  "config": {
+    "check_tlp": true,
+    "max_tlp": 2,
+    "auto_extract": false
+  },
+  "registration_required": false,
+  "subscription_required": false,
+  "free_subscription": true
+}

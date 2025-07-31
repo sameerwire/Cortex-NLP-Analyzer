@@ -1,0 +1,12 @@
+{
+  "name": "NLP_Phishing_1_0",
+  "version": "1.0",
+  "author": "YourName",
+  "url": "https://github.com/yourname/NLP_Phishing",
+  "license": "MIT",
+  "description": "Detects phishing using DistilBERT",
+  "dataTypeList": ["mail", "text", "string"],
+  "command": "python3 NLP_Phishing_1_0.py --data {input}",
+  "baseConfig": "DockerAnalyzer"
+}
+
